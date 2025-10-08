@@ -48,7 +48,7 @@ class Settings(BaseSettings):
     LLM_MODEL: str = "gpt-3.5-turbo"
     
     # Google Gemini Configuration
-    GEMINI_API_KEY: str = "AIzaSyD0aCARxYScAbcZ1Et_Ke80I-1dVTqvxlU"
+    GEMINI_API_KEY: str = "your-secret-key-change-in-production"
     GEMINI_MODEL: str = "gemini-2.5-flash"
     GEMINI_EMBEDDING_MODEL: str = "models/text-embedding-004"
     
